@@ -8,8 +8,12 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/header-workers.jpg" alt="five workers" />
-      <img src="img/logotype.svg" alt="logotype" />
+      <img
+        class="header_background"
+        src="img/header-workers.jpg"
+        alt="five workers"
+      />
+      <img class="logo" src="img/logotype.svg" alt="logotype" />
       <nav>
         <ul>
           <li><a href="#">ABOUT US</a></li>
@@ -18,7 +22,7 @@
           <li><a href="#">CONTACT US</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="social_links">
         <img src="img/icons8-facebook-50 (1).png" alt="facebook link" />
         <img src="img/icons8-instagram-30.png" alt="instagram link" />
         <img src="img/icons8-воспроизведение-64.png" alt="youtube link" />
@@ -26,12 +30,12 @@
       <h1>YOUR HR MANAGEMENT AGENCY</h1>
       <a>LEARN MORE</a>
     </header>
-    <main>
-      <section>
-        <img src="img/workers.jpg" alt="workers" />
+    <main class="main">
+      <section id="about">
+        <img class="about_img" src="img/workers.jpg" alt="workers" />
         <h4>WHAT WE DO</h4>
-        <h2>ABOUT THE COMPANY</h2>
-        <h3>We perform any HR tasks for your business.</h3>
+        <p class="about_title">ABOUT THE COMPANY</p>
+        <p class="about_subtitle">We perform any HR tasks for your business.</p>
         <h5>
           We are a team of professionals with vast experience in providing
           HR-related services for companies as outsourcing partners. We have
@@ -42,10 +46,17 @@
           software to manage all processes and provide our clients with timely
           reports.
         </h5>
-        <div>
+        <div class="about_button">
           <a>LEARN MORE</a>
           <a>CONTACT AS</a>
         </div>
+      </section>
+      <section id="services">
+        <h4>SERVICES</h4>
+        <p class="services_title">SERVICES WE PROVIDE</p>
+        <p class="services_subtitle">
+          We create and manage your teams, freeing you from any worries.
+        </p>
       </section>
     </main>
   </body>
