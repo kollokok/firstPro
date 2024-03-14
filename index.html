@@ -7,11 +7,12 @@
     <title>HR Partner</title>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="shortcut icon" href="img/logotype.svg" />
+    <link href="https://fonts.google.com/share?query=ubun" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <img
-        class="header_background"
+        id="header_background"
         src="img/header-workers.jpg"
         alt="five workers"
       />
@@ -24,7 +25,7 @@
           <li><a href="#">CONTACT US</a></li>
         </ul>
       </nav>
-      <div class="social_links">
+      <div id="social_links">
         <img src="img/icons8-facebook-50 (1).png" alt="facebook link" />
         <img src="img/icons8-instagram-30.png" alt="instagram link" />
         <img src="img/icons8-воспроизведение-64.png" alt="youtube link" />
@@ -32,12 +33,12 @@
       <h1>YOUR HR MANAGEMENT AGENCY</h1>
       <a href="#">LEARN MORE</a>
     </header>
-    <!-- <main class="main">
+    <main class="main">
       <section id="about">
-        <img class="about_img" src="img/workers.jpg" alt="workers" />
+        <img id="about_img" src="img/workers.jpg" alt="workers" />
         <h2>WHAT WE DO</h2>
-        <p class="about_title title">ABOUT THE COMPANY</p>
-        <p class="about_subtitle subtitle">
+        <p id="about_title" class="title">ABOUT THE COMPANY</p>
+        <p id="about_subtitle" class="subtitle">
           We perform any HR tasks for your business.
         </p>
         <p class="about_text text">
@@ -61,13 +62,13 @@
       </section>
       <section id="services">
         <h2>SERVICES</h2>
-        <p class="services_title title">SERVICES WE PROVIDE</p>
-        <p class="services_subtitle subtitle">
+        <p id="services_title" class="title">SERVICES WE PROVIDE</p>
+        <p id="services_subtitle" class="subtitle">
           We create and manage your teams, freeing you from any worries.
         </p>
-        <div class="services_carousel">
-          <button class="carousel__btn-prev"></button>
-          <div class="carousel__slaid-container">
+        <div id="services_carousel">
+          <button id="carousel__btn-prev"></button>
+          <div id="carousel__slaid-container">
             <article class="carousel__slaid">
               <img src="img/outstaffing.svg" alt="outstaffing" />
               <p class="slaid__title">IT outstaffing</p>
@@ -188,15 +189,15 @@
               </ul>
             </article>
           </div>
-          <button class="carosel__btn-next"></button>
+          <button id="carosel__btn-next"></button>
         </div>
-     </section> -->
-    <!-- отдельно настроить сss industries__info-->
-    <!--<section class="industries">
+      </section>
+      <!-- отдельно настроить сss industries__info-->
+      <section class="industries">
         <img src="img/office.jpg" alt="office" />
-        <div class="industries__content">
-          <p class="industries__title title">AREAS OF EXPERTISE</p>
-          <p class="industries__subtitle subtitle">
+        <div id="industries__content">
+          <p id="industries__title" class="title">AREAS OF EXPERTISE</p>
+          <p id="industries__subtitle" class="subtitle">
             We work with clients from a number of industries. Whatever you do,
             we can help you perform even better.
           </p>
@@ -205,7 +206,7 @@
             with clients in various industries. We have had successful
             collaborations in the domains mentioned below:
           </p>
-          <div class="industries__list">
+          <div id="industries__list">
             <div class="industries__list__point point_text">
               <img src="img/tick.svg" class="tick-img" alt="tick" />
               <p class="industries__point__text">Healthcare</p>
@@ -307,11 +308,11 @@
       </section>
       <section class="benefits">
         <h2>BENEFITS</h2>
-        <p class="benefits__title title">WHY CHOOSE US</p>
-        <p class="benefits__subtitle subtitle">
+        <p id="benefits__title" class="title">WHY CHOOSE US</p>
+        <p id="benefits__subtitle" class="subtitle">
           Learn more about the benefits you get when working with us.
         </p>
-        <div class="benefits__content">
+        <div id="benefits__content">
           <div class="benefits__content_element">
             <img src="img/skills.svg" alt="skills" />
             <p class="benefits__content_title text_title">
@@ -377,7 +378,7 @@
         </div>
       </section>
       <section class="quotes">
-        <div class="quotes__carousel">
+        <div id="quotes__carousel">
           <img src="img/arrow_left.svg" alt="arrow_left" />
           <div class="quotes__slide">
             <img src="img/brackets.svg" alt="brackets" />
@@ -418,11 +419,11 @@
           <img src="img/arrow_right.svg" alt="arrow_right" />
         </div>
       </section>
-      <section class="process">
+      <section id="process">
         <img src="img/man_with_phone.jpg" alt="man_with_phone" />
         <h2>PROCESS</h2>
-        <p class="process__title title">HOW WE WORK</p>
-        <p class="process__subtitle subtitle">
+        <p id="process__title" class="title">HOW WE WORK</p>
+        <p id="process__subtitle" class="subtitle">
           We offer a simple and understandable way to cooperate with our
           company. Just follow three simple steps described below.
         </p>
@@ -487,8 +488,8 @@
       </section>
       <section class="partners">
         <h2>SOME OF OUR DEAREST CLIENTS</h2>
-        <p class="partners__title title">PARTNERS</p>
-        <p class="partners__subtitle subtitle">
+        <p id="partners__title" class="title">PARTNERS</p>
+        <p id="partners__subtitle" class="subtitle">
           Here’s a short list of our recent clients and partners.
         </p>
         <div class="partners__list">
@@ -541,8 +542,8 @@
       </section>
       <section class="we-explore">
         <h2>WE EXPLORE</h2>
-        <p class="we-explore__title title">POPULAR ARTICLES</p>
-        <p class="we-explore__subtitle subtitle">
+        <p id="we-explore__title" class="title">POPULAR ARTICLES</p>
+        <p id="we-explore__subtitle" class="subtitle">
           Learn more about human resource management.
         </p>
         <div class="we-explore__item">
@@ -578,8 +579,10 @@
       </section>
       <section class="questions">
         <h2>STILL HAVE QUESTIONS?</h2>
-        <p class="questions__title title">WANT TO IMPROVE YOUR HR BRAND?</p>
-        <p class="questions__subtitle subtitle">
+        <p id="questions__title" class="title">
+          WANT TO IMPROVE YOUR HR BRAND?
+        </p>
+        <p id="questions__subtitle" class="subtitle">
           Feel free to contact us and schedule your first consultation with our
           specialists.
         </p>
@@ -663,6 +666,6 @@
           <a href="#">+1 (234) 567 89 01</a>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
