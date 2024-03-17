@@ -72,12 +72,43 @@ h5 {
 #header_background {
   position: absolute;
   z-index: -1;
+  height: 750px;
+  width: 100%;
 }
 
 img.logo {
   width: 145px;
 }
 
+header {
+  height: 750px;
+  overflow: hidden;
+}
+
 #head {
   display: flex;
+  height: 105px;
+  padding: 30px 24px 30px 24px;
 }
+
+#header-titel-text {
+  padding: 130px 40px 110px 40px;
+  width: 320px;
+  height: 650px;
+}
+
+.learn-more {
+  text-align: center;
+  background-color: rgb(141, 153, 255);
+  padding: 18px 35px 18px 35px;
+  border-radius: 6px;
+}
+
+h1 + a.learn-more {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+@import url(about.css);
