@@ -10,6 +10,9 @@
 :root {
   scroll-behavior: smooth;
   font-family: "Ubuntu", sans-serif;
+  --text: 18px;
+  --color-darkgray: rgb(33, 36, 61);
+  --color-lightgray: rgb(102, 102, 102);
 }
 
 img {
@@ -18,7 +21,7 @@ img {
 }
 
 h2 {
-  color: rgb(102, 102, 102);
+  color: var(--color-lightgray);
   text-align: center;
   text-transform: uppercase;
   font-size: 12px;
@@ -26,7 +29,7 @@ h2 {
 }
 
 h3 {
-  color: rgb(33, 36, 61);
+  color: var(--color-darkgray);
   text-align: center;
   text-transform: uppercase;
   font-size: 38px;
@@ -34,31 +37,34 @@ h3 {
 }
 
 h4 {
-  color: rgb(102, 102, 102);
+  color: var(--color-lightgray);
   text-align: center;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: var(--text);
 }
 
 h1 {
-  border-bottom-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   font-size: 62px;
   line-height: 62px;
   font-family: Rajdhani, sans-serif;
+  text-align: center;
 }
 
 .text {
-  color: rgb(102, 102, 102);
+  color: var(--color-lightgray);
   text-transform: uppercase;
   line-height: 27px;
-  font-size: 18px;
+  font-size: var(--text);
   font-weight: 300px;
   font-weight: 400;
 }
 
-.slaid__title {
+h5 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 22px;
+  color: var(--color-darkgray);
+  font-family: Rajdhani, sans-serif;
+  font-size: 24px;
   line-height: 35px;
 }
