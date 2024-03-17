@@ -68,3 +68,16 @@ h5 {
   font-size: 24px;
   line-height: 35px;
 }
+
+#header_background {
+  position: absolute;
+  z-index: -1;
+}
+
+img.logo {
+  width: 145px;
+}
+
+#head {
+  display: flex;
+}
